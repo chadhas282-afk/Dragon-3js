@@ -3,3 +3,8 @@ import { Canvas } from '@react-three/fiber'
 import Lenis from 'lenis'
 import Dragon from './components/dragon'
 import "./App.css"
+
+export default function App() {
+  const cursorRef = useRef(null)
+
+  useEffect(() => {
