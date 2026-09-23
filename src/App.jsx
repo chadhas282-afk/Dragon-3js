@@ -32,3 +32,9 @@ export default function App() {
       window.removeEventListener('mousemove', moveCursor)
     }
   }, [])
+
+  return (
+    <main>
+      <div className="custom-cursor" ref={cursorRef}></div>
+      <Canvas id="canvas-elem" style={{
+        height: "100vh",
