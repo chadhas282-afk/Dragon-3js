@@ -43,3 +43,8 @@ body:hover .custom-cursor {
 }
 
 #section-1 {
+    --gap: 5rem;
+  position: relative;
+
+  nav {
+    display: flex;
