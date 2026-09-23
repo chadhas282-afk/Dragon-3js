@@ -38,3 +38,8 @@ export default function App() {
       <div className="custom-cursor" ref={cursorRef}></div>
       <Canvas id="canvas-elem" style={{
         height: "100vh",
+        width: "100vw",
+        position: "fixed",
+        top: 0,
+        left: 0,
+        zIndex: 1,
