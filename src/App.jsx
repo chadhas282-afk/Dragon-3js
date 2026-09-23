@@ -103,3 +103,8 @@ export default function App() {
 
         </div>
       </section>
+       <section id="section-3">
+        <div className="footer-content">
+          <h2>THE LEGEND LIVES ON</h2>
+          <p>Ready to bring your mythical visions to life with cutting-edge 3D design and shaders?</p>
+          <button className="cta-button">Initialize Project</button>
