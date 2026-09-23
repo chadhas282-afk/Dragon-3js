@@ -93,3 +93,8 @@ export default function App() {
             <h1>Y Ddraig Goch</h1>
           </div>
           <div img-title="kennedy" className="title">
+            <small>EASTERN DYNASTY</small>
+            <h1>Shenlong & The Storms</h1>
+          </div>
+          <div img-title="opera" className="title">
+            <small>ETERNAL FLAME</small>
