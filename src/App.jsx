@@ -18,4 +18,8 @@ export default function App() {
       lenis.raf(time)
       requestAnimationFrame(raf)
     }
-    
+    requestAnimationFrame(raf)
+
+    const moveCursor = (e) => {
+      if (cursorRef.current) {
+        cursorRef.current.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0)`
