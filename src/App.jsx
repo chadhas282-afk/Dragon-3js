@@ -88,3 +88,8 @@ export default function App() {
             <small>THE NORTHERN SAGA</small>
             <h1>Fafnir's Hoard</h1>
           </div>
+          <div img-title="kikk" className="title">
+            <small>CELTIC LORE</small>
+            <h1>Y Ddraig Goch</h1>
+          </div>
+          <div img-title="kennedy" className="title">
