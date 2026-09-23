@@ -23,7 +23,7 @@ export default function App() {
     const moveCursor = (e) => {
       if (cursorRef.current) {
         cursorRef.current.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0)`
-        }
+      }
     }
     window.addEventListener('mousemove', moveCursor)
 
@@ -43,7 +43,7 @@ export default function App() {
         top: 0,
         left: 0,
         zIndex: 1,
-         }}>
+      }}>
         <Dragon />
       </Canvas>
       <section id="section-1">
@@ -58,7 +58,7 @@ export default function App() {
           </div>
           <div className="right"></div>
         </div>
-         <div className="bottom">
+        <div className="bottom">
           <div className="left"></div>
           <div className="right">
             <p>Dragons are mythical, <br />
@@ -83,7 +83,7 @@ export default function App() {
           <div img-title="msi-chicago"  className="title">
             <small>LEGENDS UNTOLD</small>
             <h1>Tiamat of the Deep</h1>
-             </div>
+          </div>
           <div img-title="phone"  className="title">
             <small>THE NORTHERN SAGA</small>
             <h1>Fafnir's Hoard</h1>
@@ -103,8 +103,17 @@ export default function App() {
 
         </div>
       </section>
-       <section id="section-3">
+      <section id="section-3">
         <div className="footer-content">
           <h2>THE LEGEND LIVES ON</h2>
           <p>Ready to bring your mythical visions to life with cutting-edge 3D design and shaders?</p>
           <button className="cta-button">Initialize Project</button>
+          <div className="footer-bottom">
+            <span>© 2026 DragonStudio. All Rights Reserved.</span>
+            <span>WebGL • Three.js • GSAP</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  )
+}
