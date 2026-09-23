@@ -28,3 +28,7 @@ export default function App() {
     window.addEventListener('mousemove', moveCursor)
 
     return () => {
+      lenis.destroy()
+      window.removeEventListener('mousemove', moveCursor)
+    }
+  }, [])
