@@ -72,4 +72,9 @@ export default function App() {
       </section>
       <section id="section-2">
         <div className="titles">
-          <div img-title="tomorrowland" className="title"></div>
+          <div img-title="tomorrowland" className="title">
+            <small>AGE OF MYTH</small>
+            <h1>Smaug the Golden</h1>
+          </div>
+          <div img-title="navy-pier"  className="title">
+            <small>PRIMORDIAL ERA</small>
