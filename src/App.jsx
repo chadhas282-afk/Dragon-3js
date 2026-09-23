@@ -98,3 +98,8 @@ export default function App() {
           </div>
           <div img-title="opera" className="title">
             <small>ETERNAL FLAME</small>
+            <h1>The Wyvern's Keep</h1>
+          </div>
+
+        </div>
+      </section>
