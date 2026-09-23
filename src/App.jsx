@@ -63,3 +63,8 @@ export default function App() {
           <div className="right">
             <p>Dragons are mythical, <br />
               reptilian creatures featured in global folklore, <br />
+              symbolizing fierce power in the West <br />
+              and wisdom in the East.</p>
+          </div>
+        </div>
+        <div className="first-line"></div>
