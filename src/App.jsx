@@ -83,3 +83,8 @@ export default function App() {
           <div img-title="msi-chicago"  className="title">
             <small>LEGENDS UNTOLD</small>
             <h1>Tiamat of the Deep</h1>
+             </div>
+          <div img-title="phone"  className="title">
+            <small>THE NORTHERN SAGA</small>
+            <h1>Fafnir's Hoard</h1>
+          </div>
