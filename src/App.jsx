@@ -43,3 +43,8 @@ export default function App() {
         top: 0,
         left: 0,
         zIndex: 1,
+         }}>
+        <Dragon />
+      </Canvas>
+      <section id="section-1">
+        <nav>
