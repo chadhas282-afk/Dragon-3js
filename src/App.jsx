@@ -78,3 +78,8 @@ export default function App() {
           </div>
           <div img-title="navy-pier"  className="title">
             <small>PRIMORDIAL ERA</small>
+            <h1>Ancalagon the Black</h1>
+          </div>
+          <div img-title="msi-chicago"  className="title">
+            <small>LEGENDS UNTOLD</small>
+            <h1>Tiamat of the Deep</h1>
