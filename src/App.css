@@ -37,3 +37,9 @@ section {
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
   transition: width 0.2s, height 0.2s, background-color 0.2s;
 }
+
+body:hover .custom-cursor {
+  opacity: 1;
+}
+
+#section-1 {
