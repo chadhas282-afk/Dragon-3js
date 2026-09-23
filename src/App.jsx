@@ -58,3 +58,8 @@ export default function App() {
           </div>
           <div className="right"></div>
         </div>
+         <div className="bottom">
+          <div className="left"></div>
+          <div className="right">
+            <p>Dragons are mythical, <br />
+              reptilian creatures featured in global folklore, <br />
