@@ -103,3 +103,8 @@ body:hover .custom-cursor {
   }
 
   .second-line {
+    width: 10rem;
+    background-color: rgba(255, 0, 0, 0.396);
+    height: 1px;
+    position: absolute;
+    transform: rotate(135deg);
