@@ -143,3 +143,8 @@ body:hover .custom-cursor {
     .title:hover {
       opacity: 1;
     }
+     }
+}
+
+#section-3 {
+  display: flex;
