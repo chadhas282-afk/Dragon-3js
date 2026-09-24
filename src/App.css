@@ -118,3 +118,8 @@ body:hover .custom-cursor {
     display: flex;
     flex-direction: column;
     padding-left: 8rem;
+    margin-block: 10rem;
+
+    .title {
+      display: flex;
+      gap: 4rem;
