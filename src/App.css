@@ -93,3 +93,8 @@ body:hover .custom-cursor {
       width: 50%;
     }
   }
+
+  .first-line {
+    width: 35rem;
+    background-color: rgba(255, 0, 0, 0.396);
+    height: 1px;
