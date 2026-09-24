@@ -152,3 +152,9 @@ body:hover .custom-cursor {
   justify-content: flex-end;
   padding: 5rem 8rem;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.95) 0%, transparent 100%);
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
