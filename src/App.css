@@ -68,3 +68,8 @@ body:hover .custom-cursor {
     .left,
     .right {
       width: 50%;
+      }
+
+    .left {
+      display: flex;
+      align-items: center;
