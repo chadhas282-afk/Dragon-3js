@@ -112,3 +112,9 @@ body:hover .custom-cursor {
     right: 12%;
   }
 }
+
+#section-2 {
+  .titles {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8rem;
