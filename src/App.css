@@ -87,3 +87,9 @@ body:hover .custom-cursor {
   .bottom {
     display: flex;
     gap: var(--gap);
+
+    .left,
+    .right {
+      width: 50%;
+    }
+  }
