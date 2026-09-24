@@ -133,8 +133,13 @@ body:hover .custom-cursor {
         font-weight: 100;
         line-height: 1;
       }
-      
+
        small {
         margin-top: 0.6rem;
         font-size: 0.5rem;
       }
+      }
+
+    .title:hover {
+      opacity: 1;
+    }
