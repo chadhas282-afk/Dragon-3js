@@ -108,3 +108,7 @@ body:hover .custom-cursor {
     height: 1px;
     position: absolute;
     transform: rotate(135deg);
+     top: 28%;
+    right: 12%;
+  }
+}
