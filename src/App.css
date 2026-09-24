@@ -123,3 +123,7 @@ body:hover .custom-cursor {
     .title {
       display: flex;
       gap: 4rem;
+      opacity: 0.3;
+      padding-block: 2rem;
+      transition: all 0.3s linear;
+      cursor: pointer;
