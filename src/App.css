@@ -178,3 +178,8 @@ body:hover .custom-cursor {
       padding: 1rem 2.5rem;
       background-color: transparent;
       color: whitesmoke;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
