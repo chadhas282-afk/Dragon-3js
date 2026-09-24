@@ -73,3 +73,8 @@ body:hover .custom-cursor {
     .left {
       display: flex;
       align-items: center;
+      justify-content: flex-end;
+      padding-block: 7rem;
+    }
+
+    h1 {
