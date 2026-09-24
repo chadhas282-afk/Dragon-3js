@@ -83,3 +83,7 @@ body:hover .custom-cursor {
       text-align: right;
     }
   }
+
+  .bottom {
+    display: flex;
+    gap: var(--gap);
