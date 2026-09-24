@@ -172,3 +172,9 @@ body:hover .custom-cursor {
       font-size: 1.1rem;
       line-height: 1.6;
     }
+
+     .cta-button {
+      margin-top: 1rem;
+      padding: 1rem 2.5rem;
+      background-color: transparent;
+      color: whitesmoke;
