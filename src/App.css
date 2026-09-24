@@ -163,3 +163,8 @@ body:hover .custom-cursor {
 
     h2 {
       font-size: 3rem;
+      font-weight: 300;
+      letter-spacing: 2px;
+    }
+
+    p {
