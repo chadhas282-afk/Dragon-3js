@@ -188,3 +188,7 @@ body:hover .custom-cursor {
         background-color: red;
         border-color: red;
         color: white;
+         transform: translateY(-2px);
+      }
+    }
+  }
