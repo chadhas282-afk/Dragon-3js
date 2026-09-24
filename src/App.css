@@ -127,3 +127,9 @@ body:hover .custom-cursor {
       padding-block: 2rem;
       transition: all 0.3s linear;
       cursor: pointer;
+
+       h1 {
+        font-size: 3.5rem;
+        font-weight: 100;
+        line-height: 1;
+      }
