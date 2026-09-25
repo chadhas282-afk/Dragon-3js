@@ -93,3 +93,8 @@ const Dragon = () => {
 
     useEffect(() => {
         matcaps.forEach((texture) => {
+            texture.colorSpace = THREE.SRGBColorSpace
+            texture.generateMipmaps = true
+            texture.minFilter = THREE.LinearMipmapLinearFilter
+            texture.needsUpdate = true
+        })
