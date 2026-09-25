@@ -83,3 +83,8 @@ const Dragon = () => {
     const normalMap = normalMaps[0]
 
     useEffect(() => {
+        if (!normalMap) return
+        normalMap.flipY = false
+        normalMap.colorSpace = THREE.NoColorSpace
+        normalMap.needsUpdate = true
+    }, [normalMap])
