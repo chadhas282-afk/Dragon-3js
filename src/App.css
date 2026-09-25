@@ -18,7 +18,7 @@ main {
 }
 
 section {
-    min-height: 100vh;
+  min-height: 100vh;
   position: relative;
   z-index: 2;
 }
@@ -43,7 +43,7 @@ body:hover .custom-cursor {
 }
 
 #section-1 {
-    --gap: 5rem;
+  --gap: 5rem;
   position: relative;
 
   nav {
@@ -58,7 +58,7 @@ body:hover .custom-cursor {
       max-width: 15rem;
       width: 100%;
       height: 100%;
-      }
+    }
   }
 
   .middle {
@@ -68,7 +68,7 @@ body:hover .custom-cursor {
     .left,
     .right {
       width: 50%;
-      }
+    }
 
     .left {
       display: flex;
@@ -108,7 +108,7 @@ body:hover .custom-cursor {
     height: 1px;
     position: absolute;
     transform: rotate(135deg);
-     top: 28%;
+    top: 28%;
     right: 12%;
   }
 }
@@ -128,22 +128,22 @@ body:hover .custom-cursor {
       transition: all 0.3s linear;
       cursor: pointer;
 
-       h1 {
+      h1 {
         font-size: 3.5rem;
         font-weight: 100;
         line-height: 1;
       }
 
-       small {
+      small {
         margin-top: 0.6rem;
         font-size: 0.5rem;
       }
-      }
+    }
 
     .title:hover {
       opacity: 1;
     }
-     }
+  }
 }
 
 #section-3 {
@@ -173,7 +173,7 @@ body:hover .custom-cursor {
       line-height: 1.6;
     }
 
-     .cta-button {
+    .cta-button {
       margin-top: 1rem;
       padding: 1rem 2.5rem;
       background-color: transparent;
@@ -188,7 +188,7 @@ body:hover .custom-cursor {
         background-color: red;
         border-color: red;
         color: white;
-         transform: translateY(-2px);
+        transform: translateY(-2px);
       }
     }
   }
@@ -198,3 +198,9 @@ body:hover .custom-cursor {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 2rem;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
