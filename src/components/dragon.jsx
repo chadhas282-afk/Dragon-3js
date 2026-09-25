@@ -53,3 +53,7 @@ const Dragon = () => {
     const [lightTint, setLightTint] = useState({ primary: '#ffffff', secondary: '#88bbff' })
 
     const shaderUniforms = useRef({
+         uMatcapTexture1: { value: null },
+        uMatcapTexture2: { value: null },
+        uProgress: { value: 1.0 },
+    })
