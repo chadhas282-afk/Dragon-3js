@@ -103,3 +103,8 @@ const Dragon = () => {
     const [, mat2, , , , , , mat8, , , , mat12, mat13, mat14, mat15, , , , mat19] = matcaps
 
     useEffect(() => {
+         if (!mat2) return
+        shaderUniforms.current.uMatcapTexture1.value = mat2
+        shaderUniforms.current.uMatcapTexture2.value = mat2
+        shaderUniforms.current.uProgress.value = 1.0
+    }, [mat2])
