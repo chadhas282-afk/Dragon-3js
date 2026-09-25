@@ -98,3 +98,8 @@ const Dragon = () => {
             texture.minFilter = THREE.LinearMipmapLinearFilter
             texture.needsUpdate = true
         })
+        }, [matcaps])
+
+    const [, mat2, , , , , , mat8, , , , mat12, mat13, mat14, mat15, , , , mat19] = matcaps
+
+    useEffect(() => {
