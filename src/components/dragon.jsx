@@ -57,3 +57,9 @@ const Dragon = () => {
         uMatcapTexture2: { value: null },
         uProgress: { value: 1.0 },
     })
+
+    const { camera, gl } = useThree()
+    const model = useGLTF(MODEL_PATH)
+    dragonModel.current = model
+
+    const { actions } = useAnimations(model.animations, model.scene)
