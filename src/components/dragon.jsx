@@ -73,3 +73,8 @@ const Dragon = () => {
     }, [camera, gl])
 
     useEffect(() => {
+        const attackAction = actions?.['Qishilong_attack01']
+        if (!attackAction) return
+        attackAction.reset()
+        attackAction.play()
+    }, [actions])
