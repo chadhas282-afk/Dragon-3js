@@ -108,3 +108,8 @@ const Dragon = () => {
         shaderUniforms.current.uMatcapTexture2.value = mat2
         shaderUniforms.current.uProgress.value = 1.0
     }, [mat2])
+
+    const dragonMaterial = useMemo(() => {
+        if (!normalMap || !mat2) return null
+
+        const mat = new THREE.MeshMatcapMaterial({ normalMap, matcap: mat2 })
