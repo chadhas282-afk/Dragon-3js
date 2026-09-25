@@ -18,3 +18,8 @@ import {
 } from '@react-three/drei'
 
 import {
+    EffectComposer,
+    Bloom,
+    ChromaticAberration,
+    Noise,
+    Vignette,
