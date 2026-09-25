@@ -78,3 +78,8 @@ const Dragon = () => {
         attackAction.reset()
         attackAction.play()
     }, [actions])
+
+    const normalMaps = useTexture([NORMAL_MAP_PATH])
+    const normalMap = normalMaps[0]
+
+    useEffect(() => {
