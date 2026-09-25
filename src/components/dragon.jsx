@@ -113,3 +113,8 @@ const Dragon = () => {
         if (!normalMap || !mat2) return null
 
         const mat = new THREE.MeshMatcapMaterial({ normalMap, matcap: mat2 })
+
+        mat.onBeforeCompile = (shader) => {
+            shader.uniforms.uMatcapTexture1 = shaderUniforms.current.uMatcapTexture1
+            shader.uniforms.uMatcapTexture2 = shaderUniforms.current.uMatcapTexture2
+            shader.uniforms.uProgress = shaderUniforms.current.uProgress
