@@ -128,3 +128,8 @@ const Dragon = () => {
 
                 void main() {
                 `
+                 )
+
+            shader.fragmentShader = shader.fragmentShader.replace(
+                'vec4 matcapColor = texture2D( matcap, uv );',
+                `
