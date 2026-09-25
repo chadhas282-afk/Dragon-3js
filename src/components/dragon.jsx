@@ -88,3 +88,8 @@ const Dragon = () => {
         normalMap.colorSpace = THREE.NoColorSpace
         normalMap.needsUpdate = true
     }, [normalMap])
+
+    const matcaps = useTexture(MATCAP_PATHS)
+
+    useEffect(() => {
+        matcaps.forEach((texture) => {
