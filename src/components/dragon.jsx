@@ -68,3 +68,8 @@ const Dragon = () => {
         camera.position.set(40, 0, 40)
         gl.toneMapping = THREE.ReinhardToneMapping
         gl.toneMappingExposure = 1.2
+         gl.outputColorSpace = THREE.SRGBColorSpace
+        gl.setPixelRatio(Math.min(window.devicePixelRatio, 2))
+    }, [camera, gl])
+
+    useEffect(() => {
