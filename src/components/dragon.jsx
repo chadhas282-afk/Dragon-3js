@@ -48,3 +48,8 @@ useTexture.preload(NORMAL_MAP_PATH)
 MATCAP_PATHS.forEach((path) => useTexture.preload(path))
 
 const Dragon = () => {
+    const group = useRef(null)
+    const dragonModel = useRef(null)
+    const [lightTint, setLightTint] = useState({ primary: '#ffffff', secondary: '#88bbff' })
+
+    const shaderUniforms = useRef({
