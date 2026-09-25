@@ -23,3 +23,8 @@ import {
     ChromaticAberration,
     Noise,
     Vignette,
+    } from '@react-three/postprocessing'
+
+import gsap from 'gsap'
+import { useGSAP } from '@gsap/react'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
