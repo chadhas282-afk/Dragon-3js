@@ -63,3 +63,8 @@ const Dragon = () => {
     dragonModel.current = model
 
     const { actions } = useAnimations(model.animations, model.scene)
+
+    useEffect(() => {
+        camera.position.set(40, 0, 40)
+        gl.toneMapping = THREE.ReinhardToneMapping
+        gl.toneMappingExposure = 1.2
