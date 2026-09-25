@@ -133,3 +133,8 @@ const Dragon = () => {
             shader.fragmentShader = shader.fragmentShader.replace(
                 'vec4 matcapColor = texture2D( matcap, uv );',
                 `
+                vec4 matcapColor1 = texture2D(uMatcapTexture1, uv);
+                vec4 matcapColor2 = texture2D(uMatcapTexture2, uv);
+
+                float sweep = uv.x + uv.y * 0.5;
+                float width = 0.18;
