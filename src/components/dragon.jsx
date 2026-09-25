@@ -42,3 +42,9 @@ const MATCAP_PATHS = [
     '/matcap/mat-13.png', '/matcap/mat-14.png', '/matcap/mat-15.png', '/matcap/mat-16.png',
     '/matcap/mat-17.png', '/matcap/mat-18.png', '/matcap/mat-19.png', '/matcap/mat-20.png',
 ]
+
+useGLTF.preload(MODEL_PATH)
+useTexture.preload(NORMAL_MAP_PATH)
+MATCAP_PATHS.forEach((path) => useTexture.preload(path))
+
+const Dragon = () => {
