@@ -13,3 +13,8 @@ import {
     useGLTF,
     useTexture,
     useAnimations,
+    ContactShadows,
+    Sparkles,
+} from '@react-three/drei'
+
+import {
