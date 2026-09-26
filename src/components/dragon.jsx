@@ -223,3 +223,8 @@ const Dragon = () => {
                 end: 'bottom bottom',
                 scrub: true,
             },
+            })
+
+        tl.to(dragon.position, { z: '-=30', y: '+=4', x: '+=18' })
+        tl.to(dragon.rotation, { x: `+=${Math.PI / 15}` })
+        tl.to(dragon.rotation, { y: `-=${Math.PI + 3}` }, 'third')
