@@ -258,3 +258,8 @@ const Dragon = () => {
                 shaderUniforms.current.uMatcapTexture2.value = newMatcap
                 shaderUniforms.current.uProgress.value = 1.0
             },
+             })
+    }
+
+    useEffect(() => {
+        if (!mat2) return
