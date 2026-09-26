@@ -238,3 +238,8 @@ const Dragon = () => {
 
         if (themeType === 'fire') {
             setLightTint({ primary: '#ffaa44', secondary: '#ff3300' })
+            } else if (themeType === 'mythic') {
+            setLightTint({ primary: '#88eeff', secondary: '#3344ff' })
+        } else {
+            setLightTint({ primary: '#ffffff', secondary: '#88bbff' })
+        }
