@@ -278,3 +278,8 @@ const Dragon = () => {
 
         titleMappings.forEach(({ selector, mat, type }) => {
             const element = document.querySelector(selector)
+             if (!element) return
+
+            const handleMouseEnter = () => transitionToMatcap(mat, type)
+            element.addEventListener('mouseenter', handleMouseEnter)
+            registeredListeners.push({ element, handleMouseEnter })
