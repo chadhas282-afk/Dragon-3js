@@ -168,3 +168,7 @@ const Dragon = () => {
             child.material = dragonMaterial
             
             child.material.onBeforeCompile = (shader) => {
+                child.material.userData.shader = shader
+                shader.uniforms.uMatcapTexture1 = shaderUniforms.current.uMatcapTexture1
+                shader.uniforms.uMatcapTexture2 = shaderUniforms.current.uMatcapTexture2
+                shader.uniforms.uProgress = shaderUniforms.current.uProgress
