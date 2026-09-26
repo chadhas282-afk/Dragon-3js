@@ -172,3 +172,9 @@ const Dragon = () => {
                 shader.uniforms.uMatcapTexture1 = shaderUniforms.current.uMatcapTexture1
                 shader.uniforms.uMatcapTexture2 = shaderUniforms.current.uMatcapTexture2
                 shader.uniforms.uProgress = shaderUniforms.current.uProgress
+
+                shader.fragmentShader = shader.fragmentShader.replace(
+                    'void main() {',
+                    `
+                    uniform sampler2D uMatcapTexture1;
+                    uniform sampler2D uMatcapTexture2;
