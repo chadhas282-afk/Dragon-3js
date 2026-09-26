@@ -263,3 +263,8 @@ const Dragon = () => {
 
     useEffect(() => {
         if (!mat2) return
+
+        const titleMappings = [
+            { selector: '.title[img-title="tomorrowland"]', mat: mat19, type: 'mythic' },
+            { selector: '.title[img-title="navy-pier"]', mat: mat8, type: 'default' },
+            { selector: '.title[img-title="msi-chicago"]', mat: mat14, type: 'default' },
