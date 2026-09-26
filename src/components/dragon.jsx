@@ -232,3 +232,9 @@ const Dragon = () => {
 
         return () => { tl.kill() }
     }, [])
+
+    const transitionToMatcap = (newMatcap, themeType) => {
+        if (!newMatcap) return
+
+        if (themeType === 'fire') {
+            setLightTint({ primary: '#ffaa44', secondary: '#ff3300' })
