@@ -243,3 +243,8 @@ const Dragon = () => {
         } else {
             setLightTint({ primary: '#ffffff', secondary: '#88bbff' })
         }
+
+        gsap.killTweensOf(shaderUniforms.current.uProgress)
+
+        shaderUniforms.current.uMatcapTexture1.value = newMatcap
+        shaderUniforms.current.uProgress.value = 0.0
