@@ -268,3 +268,8 @@ const Dragon = () => {
             { selector: '.title[img-title="tomorrowland"]', mat: mat19, type: 'mythic' },
             { selector: '.title[img-title="navy-pier"]', mat: mat8, type: 'default' },
             { selector: '.title[img-title="msi-chicago"]', mat: mat14, type: 'default' },
+            { selector: '.title[img-title="phone"]', mat: mat12, type: 'default' },
+            { selector: '.title[img-title="kikk"]', mat: mat15, type: 'mythic' },
+            { selector: '.title[img-title="kennedy"]', mat: mat8, type: 'default' },
+            { selector: '.title[img-title="opera"]', mat: mat13, type: 'fire' },
+        ]
