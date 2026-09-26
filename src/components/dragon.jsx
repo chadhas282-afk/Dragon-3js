@@ -178,3 +178,8 @@ const Dragon = () => {
                     `
                     uniform sampler2D uMatcapTexture1;
                     uniform sampler2D uMatcapTexture2;
+                    uniform float uProgress;
+
+                    void main() {
+                    `
+                )
