@@ -218,3 +218,8 @@ const Dragon = () => {
         const tl = gsap.timeline({
             scrollTrigger: {
                 trigger: '#section-1',
+                endTrigger: '#section-3',
+                start: 'top top',
+                end: 'bottom bottom',
+                scrub: true,
+            },
