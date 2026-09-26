@@ -162,3 +162,9 @@ const Dragon = () => {
 
     useEffect(() => {
         if (!model?.scene || !dragonMaterial) return
+
+        model.scene.traverse((child) => {
+            if (!child.isMesh) return
+            child.material = dragonMaterial
+            
+            child.material.onBeforeCompile = (shader) => {
