@@ -287,3 +287,9 @@ const Dragon = () => {
 
         const titlesContainer = document.querySelector('.titles')
         const handleMouseLeave = () => transitionToMatcap(mat2, 'default')
+
+        if (titlesContainer) {
+            titlesContainer.addEventListener('mouseleave', handleMouseLeave)
+        }
+
+        return () => {
