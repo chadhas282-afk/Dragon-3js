@@ -273,3 +273,8 @@ const Dragon = () => {
             { selector: '.title[img-title="kennedy"]', mat: mat8, type: 'default' },
             { selector: '.title[img-title="opera"]', mat: mat13, type: 'fire' },
         ]
+
+        const registeredListeners = []
+
+        titleMappings.forEach(({ selector, mat, type }) => {
+            const element = document.querySelector(selector)
