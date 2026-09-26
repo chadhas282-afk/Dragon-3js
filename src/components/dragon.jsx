@@ -153,3 +153,8 @@ const Dragon = () => {
         mat.needsUpdate = true
         return mat
     }, [normalMap, mat2])
+
+    useFrame(() => {
+        if (dragonMaterial && dragonMaterial.userData.shader) {
+            dragonMaterial.userData.shader.uniforms.uProgress.value = shaderUniforms.current.uProgress.value
+        }
