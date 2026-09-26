@@ -148,3 +148,8 @@ const Dragon = () => {
                 matcapColor.rgb += glow;
                 `
             )
+            }
+
+        mat.needsUpdate = true
+        return mat
+    }, [normalMap, mat2])
