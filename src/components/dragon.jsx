@@ -253,3 +253,8 @@ const Dragon = () => {
             value: 1.0,
             duration: 0.6,
             ease: 'power2.out',
+            overwrite: true,
+            onComplete: () => {
+                shaderUniforms.current.uMatcapTexture2.value = newMatcap
+                shaderUniforms.current.uProgress.value = 1.0
+            },
