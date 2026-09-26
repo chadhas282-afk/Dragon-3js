@@ -158,3 +158,7 @@ const Dragon = () => {
         if (dragonMaterial && dragonMaterial.userData.shader) {
             dragonMaterial.userData.shader.uniforms.uProgress.value = shaderUniforms.current.uProgress.value
         }
+         })
+
+    useEffect(() => {
+        if (!model?.scene || !dragonMaterial) return
