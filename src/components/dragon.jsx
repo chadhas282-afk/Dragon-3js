@@ -197,3 +197,9 @@ const Dragon = () => {
 
                     float edge = smoothstep(p - 0.03, p, sweep) * (1.0 - smoothstep(p, p + 0.03, sweep));
                     vec3 glow = vec3(1.2, 0.6, 0.2) * edge * 3.0;
+
+                    vec4 matcapColor = mix(matcapColor1, matcapColor2, factor);
+                    matcapColor.rgb += glow;
+                    `
+                )
+            }
