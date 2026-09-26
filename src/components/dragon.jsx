@@ -248,3 +248,8 @@ const Dragon = () => {
 
         shaderUniforms.current.uMatcapTexture1.value = newMatcap
         shaderUniforms.current.uProgress.value = 0.0
+
+        gsap.to(shaderUniforms.current.uProgress, {
+            value: 1.0,
+            duration: 0.6,
+            ease: 'power2.out',
