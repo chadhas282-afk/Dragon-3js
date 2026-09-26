@@ -213,3 +213,8 @@ const Dragon = () => {
 
     useGSAP(() => {
         if (!dragonModel.current) return
+         const dragon = dragonModel.current.scene
+
+        const tl = gsap.timeline({
+            scrollTrigger: {
+                trigger: '#section-1',
