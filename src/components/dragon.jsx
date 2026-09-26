@@ -207,3 +207,9 @@ const Dragon = () => {
             child.castShadow = true
             child.receiveShadow = true
         })
+
+        dragonMaterial.needsUpdate = true
+    }, [model, dragonMaterial])
+
+    useGSAP(() => {
+        if (!dragonModel.current) return
