@@ -283,3 +283,7 @@ const Dragon = () => {
             const handleMouseEnter = () => transitionToMatcap(mat, type)
             element.addEventListener('mouseenter', handleMouseEnter)
             registeredListeners.push({ element, handleMouseEnter })
+             })
+
+        const titlesContainer = document.querySelector('.titles')
+        const handleMouseLeave = () => transitionToMatcap(mat2, 'default')
