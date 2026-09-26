@@ -203,3 +203,7 @@ const Dragon = () => {
                     `
                 )
             }
+
+            child.castShadow = true
+            child.receiveShadow = true
+        })
